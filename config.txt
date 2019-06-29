@@ -13,14 +13,14 @@
 // If you don't know how to get a bot token, please see the guide here:
 // https://github.com/jagrosh/MusicBot/wiki/Getting-a-Bot-Token
 
-token = NTk0Mzg4NDE4MDA4NDQ5MDU5.XRbt6Q.WRwoQdPjYMwCVv4wqY5Ga2d_ABY
+token = NTk0NDQzNTEwMDMyMjM2NTQ1.XRck2A.PEJCqQVN3r5-9tI_Yqbk6T5zcmU
 
 
 // This sets the owner of the bot
 // This needs to be the owner's ID (a 17-18 digit number)
 // https://github.com/jagrosh/MusicBot/wiki/Finding-Your-User-ID
 
-owner = 521615852467126272
+owner = 526817285973868564
 
 
 // This sets the prefix for the bot
@@ -37,9 +37,9 @@ prefix = "!!"
 // Set this to DEFAULT to use the default game
 // You can make the game "Playing X", "Listening to X", or "Watching X"
 // where X is the title. If you don't include an action, it will use the
-// default of "Playing"
+// default of "Listening"
 
-game = "MUSIC !!PLAY "
+game = "MUSIC/!!PLAY "
 
 
 // If you set this, it will modify the default status of bot
@@ -89,7 +89,7 @@ npimages = false
 // Keep in mind that being connected to a voice channel uses additional bandwith,
 // so this option is not recommended if bandwidth is a concern.
 
-stayinchannel = false
+stayinchannel = true
 
 
 // This sets the maximum amount of seconds any track loaded can be. If not set or set
